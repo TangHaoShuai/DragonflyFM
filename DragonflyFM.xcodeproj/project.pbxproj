@@ -14,6 +14,10 @@
 		BD7EA4E82375133800CE7FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD7EA4E72375133800CE7FFD /* Assets.xcassets */; };
 		BD7EA4EB2375133800CE7FFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD7EA4E92375133800CE7FFD /* LaunchScreen.storyboard */; };
 		BD7EA4F62375133800CE7FFD /* DragonflyFMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7EA4F52375133800CE7FFD /* DragonflyFMTests.swift */; };
+		BDDA001623790F2C00C1F8CE /* VMcategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA001423790F2C00C1F8CE /* VMcategory+CoreDataClass.swift */; };
+		BDDA001723790F2C00C1F8CE /* VMcategory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA001523790F2C00C1F8CE /* VMcategory+CoreDataProperties.swift */; };
+		BDDA001F237913C400C1F8CE /* radioStationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA001E237913C400C1F8CE /* radioStationViewController.swift */; };
+		BDDA0021237913F100C1F8CE /* radioStationViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA0020237913F100C1F8CE /* radioStationViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,11 @@
 		BD7EA4F12375133800CE7FFD /* DragonflyFMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonflyFMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7EA4F52375133800CE7FFD /* DragonflyFMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonflyFMTests.swift; sourceTree = "<group>"; };
 		BD7EA4F72375133800CE7FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDDA001323790ED300C1F8CE /* DragonflyFM 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DragonflyFM 2.xcdatamodel"; sourceTree = "<group>"; };
+		BDDA001423790F2C00C1F8CE /* VMcategory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VMcategory+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BDDA001523790F2C00C1F8CE /* VMcategory+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VMcategory+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BDDA001E237913C400C1F8CE /* radioStationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radioStationViewController.swift; sourceTree = "<group>"; };
+		BDDA0020237913F100C1F8CE /* radioStationViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radioStationViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +70,8 @@
 		BD7EA4D12375133600CE7FFD = {
 			isa = PBXGroup;
 			children = (
+				BDDA001423790F2C00C1F8CE /* VMcategory+CoreDataClass.swift */,
+				BDDA001523790F2C00C1F8CE /* VMcategory+CoreDataProperties.swift */,
 				BD7EA4DC2375133600CE7FFD /* DragonflyFM */,
 				BD7EA4F42375133800CE7FFD /* DragonflyFMTests */,
 				BD7EA4DB2375133600CE7FFD /* Products */,
@@ -79,6 +90,12 @@
 		BD7EA4DC2375133600CE7FFD /* DragonflyFM */ = {
 			isa = PBXGroup;
 			children = (
+				BDDA001D2379137500C1F8CE /* Views */,
+				BDDA001C2379136400C1F8CE /* Uitils */,
+				BDDA001B2379135600C1F8CE /* Models */,
+				BDDA001A2379134A00C1F8CE /* Perslsts */,
+				BDDA00192379133B00C1F8CE /* Natwotk */,
+				BDDA00182379132600C1F8CE /* Controllers */,
 				BD7EA4DD2375133600CE7FFD /* AppDelegate.swift */,
 				BD7EA4DF2375133600CE7FFD /* ViewController.swift */,
 				BD7EA4E12375133600CE7FFD /* Main.storyboard */,
@@ -97,6 +114,50 @@
 				BD7EA4F72375133800CE7FFD /* Info.plist */,
 			);
 			path = DragonflyFMTests;
+			sourceTree = "<group>";
+		};
+		BDDA00182379132600C1F8CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BDDA001E237913C400C1F8CE /* radioStationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BDDA00192379133B00C1F8CE /* Natwotk */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Natwotk;
+			sourceTree = "<group>";
+		};
+		BDDA001A2379134A00C1F8CE /* Perslsts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Perslsts;
+			sourceTree = "<group>";
+		};
+		BDDA001B2379135600C1F8CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BDDA001C2379136400C1F8CE /* Uitils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Uitils;
+			sourceTree = "<group>";
+		};
+		BDDA001D2379137500C1F8CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BDDA0020237913F100C1F8CE /* radioStationViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +261,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDDA001F237913C400C1F8CE /* radioStationViewController.swift in Sources */,
 				BD7EA4E62375133600CE7FFD /* DragonflyFM.xcdatamodeld in Sources */,
 				BD7EA4E02375133600CE7FFD /* ViewController.swift in Sources */,
+				BDDA0021237913F100C1F8CE /* radioStationViewCell.swift in Sources */,
+				BDDA001723790F2C00C1F8CE /* VMcategory+CoreDataProperties.swift in Sources */,
+				BDDA001623790F2C00C1F8CE /* VMcategory+CoreDataClass.swift in Sources */,
 				BD7EA4DE2375133600CE7FFD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,9 +535,10 @@
 		BD7EA4E42375133600CE7FFD /* DragonflyFM.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				BDDA001323790ED300C1F8CE /* DragonflyFM 2.xcdatamodel */,
 				BD7EA4E52375133600CE7FFD /* DragonflyFM.xcdatamodel */,
 			);
-			currentVersion = BD7EA4E52375133600CE7FFD /* DragonflyFM.xcdatamodel */;
+			currentVersion = BDDA001323790ED300C1F8CE /* DragonflyFM 2.xcdatamodel */;
 			path = DragonflyFM.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
