@@ -14,10 +14,15 @@
 		BD7EA4E82375133800CE7FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD7EA4E72375133800CE7FFD /* Assets.xcassets */; };
 		BD7EA4EB2375133800CE7FFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD7EA4E92375133800CE7FFD /* LaunchScreen.storyboard */; };
 		BD7EA4F62375133800CE7FFD /* DragonflyFMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7EA4F52375133800CE7FFD /* DragonflyFMTests.swift */; };
-		BDDA001623790F2C00C1F8CE /* VMcategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA001423790F2C00C1F8CE /* VMcategory+CoreDataClass.swift */; };
-		BDDA001723790F2C00C1F8CE /* VMcategory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA001523790F2C00C1F8CE /* VMcategory+CoreDataProperties.swift */; };
+		BDC4561D237E36C5001274EA /* VMCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4561C237E36C5001274EA /* VMCategory.swift */; };
+		BDC4561F237E49DB001274EA /* VMradioStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4561E237E49DB001274EA /* VMradioStation.swift */; };
+		BDC45621237E5257001274EA /* JSONConveryer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC45620237E5257001274EA /* JSONConveryer.swift */; };
+		BDC45623237E5284001274EA /* JSONable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC45622237E5284001274EA /* JSONable.swift */; };
+		BDC45625237E54FC001274EA /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC45624237E54FC001274EA /* Foundation.swift */; };
+		BDC45627237E5C63001274EA /* ApiParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC45626237E5C63001274EA /* ApiParameters.swift */; };
 		BDDA001F237913C400C1F8CE /* radioStationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA001E237913C400C1F8CE /* radioStationViewController.swift */; };
 		BDDA0021237913F100C1F8CE /* radioStationViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA0020237913F100C1F8CE /* radioStationViewCell.swift */; };
+		BDDA0023237916AA00C1F8CE /* SearchHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA0022237916AA00C1F8CE /* SearchHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +47,20 @@
 		BD7EA4F12375133800CE7FFD /* DragonflyFMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonflyFMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7EA4F52375133800CE7FFD /* DragonflyFMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonflyFMTests.swift; sourceTree = "<group>"; };
 		BD7EA4F72375133800CE7FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDC45618237E3279001274EA /* VMradioStation+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VMradioStation+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BDC45619237E3279001274EA /* VMradioStation+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VMradioStation+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BDC4561C237E36C5001274EA /* VMCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMCategory.swift; sourceTree = "<group>"; };
+		BDC4561E237E49DB001274EA /* VMradioStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMradioStation.swift; sourceTree = "<group>"; };
+		BDC45620237E5257001274EA /* JSONConveryer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONConveryer.swift; sourceTree = "<group>"; };
+		BDC45622237E5284001274EA /* JSONable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONable.swift; sourceTree = "<group>"; };
+		BDC45624237E54FC001274EA /* Foundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foundation.swift; sourceTree = "<group>"; };
+		BDC45626237E5C63001274EA /* ApiParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiParameters.swift; sourceTree = "<group>"; };
 		BDDA001323790ED300C1F8CE /* DragonflyFM 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DragonflyFM 2.xcdatamodel"; sourceTree = "<group>"; };
 		BDDA001423790F2C00C1F8CE /* VMcategory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VMcategory+CoreDataClass.swift"; sourceTree = "<group>"; };
 		BDDA001523790F2C00C1F8CE /* VMcategory+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VMcategory+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		BDDA001E237913C400C1F8CE /* radioStationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radioStationViewController.swift; sourceTree = "<group>"; };
 		BDDA0020237913F100C1F8CE /* radioStationViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radioStationViewCell.swift; sourceTree = "<group>"; };
+		BDDA0022237916AA00C1F8CE /* SearchHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +84,8 @@
 		BD7EA4D12375133600CE7FFD = {
 			isa = PBXGroup;
 			children = (
+				BDC45618237E3279001274EA /* VMradioStation+CoreDataClass.swift */,
+				BDC45619237E3279001274EA /* VMradioStation+CoreDataProperties.swift */,
 				BDDA001423790F2C00C1F8CE /* VMcategory+CoreDataClass.swift */,
 				BDDA001523790F2C00C1F8CE /* VMcategory+CoreDataProperties.swift */,
 				BD7EA4DC2375133600CE7FFD /* DragonflyFM */,
@@ -127,6 +143,9 @@
 		BDDA00192379133B00C1F8CE /* Natwotk */ = {
 			isa = PBXGroup;
 			children = (
+				BDC45620237E5257001274EA /* JSONConveryer.swift */,
+				BDC45622237E5284001274EA /* JSONable.swift */,
+				BDC45626237E5C63001274EA /* ApiParameters.swift */,
 			);
 			path = Natwotk;
 			sourceTree = "<group>";
@@ -134,6 +153,7 @@
 		BDDA001A2379134A00C1F8CE /* Perslsts */ = {
 			isa = PBXGroup;
 			children = (
+				BDC45624237E54FC001274EA /* Foundation.swift */,
 			);
 			path = Perslsts;
 			sourceTree = "<group>";
@@ -141,6 +161,8 @@
 		BDDA001B2379135600C1F8CE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BDC4561C237E36C5001274EA /* VMCategory.swift */,
+				BDC4561E237E49DB001274EA /* VMradioStation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -156,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				BDDA0020237913F100C1F8CE /* radioStationViewCell.swift */,
+				BDDA0022237916AA00C1F8CE /* SearchHeader.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -261,12 +284,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC45621237E5257001274EA /* JSONConveryer.swift in Sources */,
 				BDDA001F237913C400C1F8CE /* radioStationViewController.swift in Sources */,
 				BD7EA4E62375133600CE7FFD /* DragonflyFM.xcdatamodeld in Sources */,
 				BD7EA4E02375133600CE7FFD /* ViewController.swift in Sources */,
+				BDC45627237E5C63001274EA /* ApiParameters.swift in Sources */,
+				BDC4561F237E49DB001274EA /* VMradioStation.swift in Sources */,
+				BDC45623237E5284001274EA /* JSONable.swift in Sources */,
 				BDDA0021237913F100C1F8CE /* radioStationViewCell.swift in Sources */,
-				BDDA001723790F2C00C1F8CE /* VMcategory+CoreDataProperties.swift in Sources */,
-				BDDA001623790F2C00C1F8CE /* VMcategory+CoreDataClass.swift in Sources */,
+				BDC45625237E54FC001274EA /* Foundation.swift in Sources */,
+				BDC4561D237E36C5001274EA /* VMCategory.swift in Sources */,
+				BDDA0023237916AA00C1F8CE /* SearchHeader.swift in Sources */,
 				BD7EA4DE2375133600CE7FFD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
